@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76084FE719E0EBDA008BC78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FE619E0EBDA008BC78B /* Foundation.framework */; };
+		76084FE919E0EBDA008BC78B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FE819E0EBDA008BC78B /* CoreGraphics.framework */; };
+		76084FEB19E0EBDA008BC78B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FEA19E0EBDA008BC78B /* UIKit.framework */; };
+		76084FF119E0EBDA008BC78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76084FEF19E0EBDA008BC78B /* InfoPlist.strings */; };
+		76084FF319E0EBDA008BC78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76084FF219E0EBDA008BC78B /* main.m */; };
+		76084FF719E0EBDA008BC78B /* uvuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76084FF619E0EBDA008BC78B /* uvuAppDelegate.m */; };
+		76084FFA19E0EBDA008BC78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76084FF819E0EBDA008BC78B /* Main.storyboard */; };
+		76084FFD19E0EBDA008BC78B /* uvuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76084FFC19E0EBDA008BC78B /* uvuViewController.m */; };
+		76084FFF19E0EBDA008BC78B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76084FFE19E0EBDA008BC78B /* Images.xcassets */; };
+		7608500619E0EBDA008BC78B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7608500519E0EBDA008BC78B /* XCTest.framework */; };
+		7608500719E0EBDA008BC78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FE619E0EBDA008BC78B /* Foundation.framework */; };
+		7608500819E0EBDA008BC78B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FEA19E0EBDA008BC78B /* UIKit.framework */; };
+		7608501019E0EBDA008BC78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7608500E19E0EBDA008BC78B /* InfoPlist.strings */; };
+		7608501219E0EBDA008BC78B /* Caffeine_RunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608501119E0EBDA008BC78B /* Caffeine_RunTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7608500919E0EBDA008BC78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76084FDB19E0EBDA008BC78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76084FE219E0EBDA008BC78B;
+			remoteInfo = "Caffeine Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76084FE319E0EBDA008BC78B /* Caffeine Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caffeine Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76084FE619E0EBDA008BC78B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76084FE819E0EBDA008BC78B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76084FEA19E0EBDA008BC78B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76084FEE19E0EBDA008BC78B /* Caffeine Run-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caffeine Run-Info.plist"; sourceTree = "<group>"; };
+		76084FF019E0EBDA008BC78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76084FF219E0EBDA008BC78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76084FF419E0EBDA008BC78B /* Caffeine Run-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caffeine Run-Prefix.pch"; sourceTree = "<group>"; };
+		76084FF519E0EBDA008BC78B /* uvuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uvuAppDelegate.h; sourceTree = "<group>"; };
+		76084FF619E0EBDA008BC78B /* uvuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uvuAppDelegate.m; sourceTree = "<group>"; };
+		76084FF919E0EBDA008BC78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76084FFB19E0EBDA008BC78B /* uvuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uvuViewController.h; sourceTree = "<group>"; };
+		76084FFC19E0EBDA008BC78B /* uvuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uvuViewController.m; sourceTree = "<group>"; };
+		76084FFE19E0EBDA008BC78B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7608500419E0EBDA008BC78B /* Caffeine RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caffeine RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7608500519E0EBDA008BC78B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7608500D19E0EBDA008BC78B /* Caffeine RunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caffeine RunTests-Info.plist"; sourceTree = "<group>"; };
+		7608500F19E0EBDA008BC78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7608501119E0EBDA008BC78B /* Caffeine_RunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caffeine_RunTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76084FE019E0EBDA008BC78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76084FE919E0EBDA008BC78B /* CoreGraphics.framework in Frameworks */,
+				76084FEB19E0EBDA008BC78B /* UIKit.framework in Frameworks */,
+				76084FE719E0EBDA008BC78B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608500119E0EBDA008BC78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608500619E0EBDA008BC78B /* XCTest.framework in Frameworks */,
+				7608500819E0EBDA008BC78B /* UIKit.framework in Frameworks */,
+				7608500719E0EBDA008BC78B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76084FDA19E0EBDA008BC78B = {
+			isa = PBXGroup;
+			children = (
+				76084FEC19E0EBDA008BC78B /* Caffeine Run */,
+				7608500B19E0EBDA008BC78B /* Caffeine RunTests */,
+				76084FE519E0EBDA008BC78B /* Frameworks */,
+				76084FE419E0EBDA008BC78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76084FE419E0EBDA008BC78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76084FE319E0EBDA008BC78B /* Caffeine Run.app */,
+				7608500419E0EBDA008BC78B /* Caffeine RunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76084FE519E0EBDA008BC78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76084FE619E0EBDA008BC78B /* Foundation.framework */,
+				76084FE819E0EBDA008BC78B /* CoreGraphics.framework */,
+				76084FEA19E0EBDA008BC78B /* UIKit.framework */,
+				7608500519E0EBDA008BC78B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76084FEC19E0EBDA008BC78B /* Caffeine Run */ = {
+			isa = PBXGroup;
+			children = (
+				76084FF519E0EBDA008BC78B /* uvuAppDelegate.h */,
+				76084FF619E0EBDA008BC78B /* uvuAppDelegate.m */,
+				76084FF819E0EBDA008BC78B /* Main.storyboard */,
+				76084FFB19E0EBDA008BC78B /* uvuViewController.h */,
+				76084FFC19E0EBDA008BC78B /* uvuViewController.m */,
+				76084FFE19E0EBDA008BC78B /* Images.xcassets */,
+				76084FED19E0EBDA008BC78B /* Supporting Files */,
+			);
+			path = "Caffeine Run";
+			sourceTree = "<group>";
+		};
+		76084FED19E0EBDA008BC78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76084FEE19E0EBDA008BC78B /* Caffeine Run-Info.plist */,
+				76084FEF19E0EBDA008BC78B /* InfoPlist.strings */,
+				76084FF219E0EBDA008BC78B /* main.m */,
+				76084FF419E0EBDA008BC78B /* Caffeine Run-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7608500B19E0EBDA008BC78B /* Caffeine RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				7608501119E0EBDA008BC78B /* Caffeine_RunTests.m */,
+				7608500C19E0EBDA008BC78B /* Supporting Files */,
+			);
+			path = "Caffeine RunTests";
+			sourceTree = "<group>";
+		};
+		7608500C19E0EBDA008BC78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7608500D19E0EBDA008BC78B /* Caffeine RunTests-Info.plist */,
+				7608500E19E0EBDA008BC78B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76084FE219E0EBDA008BC78B /* Caffeine Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7608501519E0EBDA008BC78B /* Build configuration list for PBXNativeTarget "Caffeine Run" */;
+			buildPhases = (
+				76084FDF19E0EBDA008BC78B /* Sources */,
+				76084FE019E0EBDA008BC78B /* Frameworks */,
+				76084FE119E0EBDA008BC78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caffeine Run";
+			productName = "Caffeine Run";
+			productReference = 76084FE319E0EBDA008BC78B /* Caffeine Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7608500319E0EBDA008BC78B /* Caffeine RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7608501819E0EBDA008BC78B /* Build configuration list for PBXNativeTarget "Caffeine RunTests" */;
+			buildPhases = (
+				7608500019E0EBDA008BC78B /* Sources */,
+				7608500119E0EBDA008BC78B /* Frameworks */,
+				7608500219E0EBDA008BC78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7608500A19E0EBDA008BC78B /* PBXTargetDependency */,
+			);
+			name = "Caffeine RunTests";
+			productName = "Caffeine RunTests";
+			productReference = 7608500419E0EBDA008BC78B /* Caffeine RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76084FDB19E0EBDA008BC78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = uvu;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "uVu Technologies";
+				TargetAttributes = {
+					7608500319E0EBDA008BC78B = {
+						TestTargetID = 76084FE219E0EBDA008BC78B;
+					};
+				};
+			};
+			buildConfigurationList = 76084FDE19E0EBDA008BC78B /* Build configuration list for PBXProject "Caffeine Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76084FDA19E0EBDA008BC78B;
+			productRefGroup = 76084FE419E0EBDA008BC78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76084FE219E0EBDA008BC78B /* Caffeine Run */,
+				7608500319E0EBDA008BC78B /* Caffeine RunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76084FE119E0EBDA008BC78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76084FFF19E0EBDA008BC78B /* Images.xcassets in Resources */,
+				76084FF119E0EBDA008BC78B /* InfoPlist.strings in Resources */,
+				76084FFA19E0EBDA008BC78B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608500219E0EBDA008BC78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608501019E0EBDA008BC78B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76084FDF19E0EBDA008BC78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76084FF319E0EBDA008BC78B /* main.m in Sources */,
+				76084FFD19E0EBDA008BC78B /* uvuViewController.m in Sources */,
+				76084FF719E0EBDA008BC78B /* uvuAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7608500019E0EBDA008BC78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7608501219E0EBDA008BC78B /* Caffeine_RunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7608500A19E0EBDA008BC78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76084FE219E0EBDA008BC78B /* Caffeine Run */;
+			targetProxy = 7608500919E0EBDA008BC78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76084FEF19E0EBDA008BC78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76084FF019E0EBDA008BC78B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76084FF819E0EBDA008BC78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76084FF919E0EBDA008BC78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7608500E19E0EBDA008BC78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7608500F19E0EBDA008BC78B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7608501319E0EBDA008BC78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7608501419E0EBDA008BC78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7608501619E0EBDA008BC78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
+				INFOPLIST_FILE = "Caffeine Run/Caffeine Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7608501719E0EBDA008BC78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
+				INFOPLIST_FILE = "Caffeine Run/Caffeine Run-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7608501919E0EBDA008BC78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caffeine Run.app/Caffeine Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Caffeine RunTests/Caffeine RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7608501A19E0EBDA008BC78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caffeine Run.app/Caffeine Run";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
+				INFOPLIST_FILE = "Caffeine RunTests/Caffeine RunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76084FDE19E0EBDA008BC78B /* Build configuration list for PBXProject "Caffeine Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608501319E0EBDA008BC78B /* Debug */,
+				7608501419E0EBDA008BC78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7608501519E0EBDA008BC78B /* Build configuration list for PBXNativeTarget "Caffeine Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608501619E0EBDA008BC78B /* Debug */,
+				7608501719E0EBDA008BC78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7608501819E0EBDA008BC78B /* Build configuration list for PBXNativeTarget "Caffeine RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7608501919E0EBDA008BC78B /* Debug */,
+				7608501A19E0EBDA008BC78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76084FDB19E0EBDA008BC78B /* Project object */;
+}
