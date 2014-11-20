@@ -15,12 +15,23 @@
 		76084FF719E0EBDA008BC78B /* uvuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76084FF619E0EBDA008BC78B /* uvuAppDelegate.m */; };
 		76084FFA19E0EBDA008BC78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76084FF819E0EBDA008BC78B /* Main.storyboard */; };
 		76084FFD19E0EBDA008BC78B /* uvuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76084FFC19E0EBDA008BC78B /* uvuViewController.m */; };
-		76084FFF19E0EBDA008BC78B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76084FFE19E0EBDA008BC78B /* Images.xcassets */; };
 		7608500619E0EBDA008BC78B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7608500519E0EBDA008BC78B /* XCTest.framework */; };
 		7608500719E0EBDA008BC78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FE619E0EBDA008BC78B /* Foundation.framework */; };
 		7608500819E0EBDA008BC78B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76084FEA19E0EBDA008BC78B /* UIKit.framework */; };
 		7608501019E0EBDA008BC78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7608500E19E0EBDA008BC78B /* InfoPlist.strings */; };
 		7608501219E0EBDA008BC78B /* Caffeine_RunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608501119E0EBDA008BC78B /* Caffeine_RunTests.m */; };
+		766983C21A02AA07003A5112 /* gameOverSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 766983C11A02AA07003A5112 /* gameOverSound.mp3 */; };
+		7674273819EF073900A1FA47 /* charactersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7674273719EF073900A1FA47 /* charactersViewController.m */; };
+		7674BD9A19E3C463009E953E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7674BD9919E3C463009E953E /* AVFoundation.framework */; };
+		7674BD9E19E3C4DE009E953E /* uVuLoop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7674BD9D19E3C4DE009E953E /* uVuLoop.mp3 */; };
+		7674BDAA19E3EB79009E953E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7674BDA919E3EB79009E953E /* CoreMotion.framework */; };
+		7696FA2B19EF1DB20097A681 /* backgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA2A19EF1DB20097A681 /* backgroundViewController.m */; };
+		7696FA3519EF270A0097A681 /* helpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA3419EF270A0097A681 /* helpViewController.m */; };
+		76A2D26B1A114665009CE778 /* Chunkfive Ex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76E312941A113F3F00DD52A5 /* Chunkfive Ex.ttf */; };
+		76C90C9D1A1D784600B52E10 /* pr_mapleleafrag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 76C90C9C1A1D784600B52E10 /* pr_mapleleafrag.mp3 */; };
+		76E3509919F6361F00A1925C /* scoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E3509819F6361F00A1925C /* scoresViewController.m */; };
+		76E78B7719EC69BF00FFB1FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E78B7619EC69BF00FFB1FF /* Images.xcassets */; };
+		76F0D0F019F95B920046AEEC /* 00 Starmap Truetype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76F0D0EF19F95B920046AEEC /* 00 Starmap Truetype.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +58,27 @@
 		76084FF919E0EBDA008BC78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76084FFB19E0EBDA008BC78B /* uvuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uvuViewController.h; sourceTree = "<group>"; };
 		76084FFC19E0EBDA008BC78B /* uvuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uvuViewController.m; sourceTree = "<group>"; };
-		76084FFE19E0EBDA008BC78B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7608500419E0EBDA008BC78B /* Caffeine RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caffeine RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7608500519E0EBDA008BC78B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7608500D19E0EBDA008BC78B /* Caffeine RunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caffeine RunTests-Info.plist"; sourceTree = "<group>"; };
 		7608500F19E0EBDA008BC78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7608501119E0EBDA008BC78B /* Caffeine_RunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caffeine_RunTests.m; sourceTree = "<group>"; };
+		766983C11A02AA07003A5112 /* gameOverSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverSound.mp3; sourceTree = "<group>"; };
+		7674273619EF073900A1FA47 /* charactersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charactersViewController.h; sourceTree = "<group>"; };
+		7674273719EF073900A1FA47 /* charactersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = charactersViewController.m; sourceTree = "<group>"; };
+		7674BD9919E3C463009E953E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7674BD9D19E3C4DE009E953E /* uVuLoop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uVuLoop.mp3; sourceTree = "<group>"; };
+		7674BDA919E3EB79009E953E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7696FA2919EF1DB20097A681 /* backgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backgroundViewController.h; sourceTree = "<group>"; };
+		7696FA2A19EF1DB20097A681 /* backgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backgroundViewController.m; sourceTree = "<group>"; };
+		7696FA3319EF270A0097A681 /* helpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpViewController.h; sourceTree = "<group>"; };
+		7696FA3419EF270A0097A681 /* helpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpViewController.m; sourceTree = "<group>"; };
+		76C90C9C1A1D784600B52E10 /* pr_mapleleafrag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pr_mapleleafrag.mp3; sourceTree = "<group>"; };
+		76E312941A113F3F00DD52A5 /* Chunkfive Ex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chunkfive Ex.ttf"; sourceTree = "<group>"; };
+		76E3509719F6361F00A1925C /* scoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoresViewController.h; sourceTree = "<group>"; };
+		76E3509819F6361F00A1925C /* scoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoresViewController.m; sourceTree = "<group>"; };
+		76E78B7619EC69BF00FFB1FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76F0D0EF19F95B920046AEEC /* 00 Starmap Truetype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00 Starmap Truetype.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7674BDAA19E3EB79009E953E /* CoreMotion.framework in Frameworks */,
+				7674BD9A19E3C463009E953E /* AVFoundation.framework in Frameworks */,
 				76084FE919E0EBDA008BC78B /* CoreGraphics.framework in Frameworks */,
 				76084FEB19E0EBDA008BC78B /* UIKit.framework in Frameworks */,
 				76084FE719E0EBDA008BC78B /* Foundation.framework in Frameworks */,
@@ -101,6 +129,8 @@
 		76084FE519E0EBDA008BC78B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7674BDA919E3EB79009E953E /* CoreMotion.framework */,
+				7674BD9919E3C463009E953E /* AVFoundation.framework */,
 				76084FE619E0EBDA008BC78B /* Foundation.framework */,
 				76084FE819E0EBDA008BC78B /* CoreGraphics.framework */,
 				76084FEA19E0EBDA008BC78B /* UIKit.framework */,
@@ -115,9 +145,17 @@
 				76084FF519E0EBDA008BC78B /* uvuAppDelegate.h */,
 				76084FF619E0EBDA008BC78B /* uvuAppDelegate.m */,
 				76084FF819E0EBDA008BC78B /* Main.storyboard */,
+				76E3509719F6361F00A1925C /* scoresViewController.h */,
+				76E3509819F6361F00A1925C /* scoresViewController.m */,
+				7696FA3319EF270A0097A681 /* helpViewController.h */,
+				7696FA3419EF270A0097A681 /* helpViewController.m */,
 				76084FFB19E0EBDA008BC78B /* uvuViewController.h */,
 				76084FFC19E0EBDA008BC78B /* uvuViewController.m */,
-				76084FFE19E0EBDA008BC78B /* Images.xcassets */,
+				7696FA2919EF1DB20097A681 /* backgroundViewController.h */,
+				7696FA2A19EF1DB20097A681 /* backgroundViewController.m */,
+				7674273619EF073900A1FA47 /* charactersViewController.h */,
+				7674273719EF073900A1FA47 /* charactersViewController.m */,
+				76E78B7619EC69BF00FFB1FF /* Images.xcassets */,
 				76084FED19E0EBDA008BC78B /* Supporting Files */,
 			);
 			path = "Caffeine Run";
@@ -126,6 +164,11 @@
 		76084FED19E0EBDA008BC78B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				76C90C9C1A1D784600B52E10 /* pr_mapleleafrag.mp3 */,
+				766983C11A02AA07003A5112 /* gameOverSound.mp3 */,
+				76F0D0EF19F95B920046AEEC /* 00 Starmap Truetype.ttf */,
+				76E312941A113F3F00DD52A5 /* Chunkfive Ex.ttf */,
+				7674BD9D19E3C4DE009E953E /* uVuLoop.mp3 */,
 				76084FEE19E0EBDA008BC78B /* Caffeine Run-Info.plist */,
 				76084FEF19E0EBDA008BC78B /* InfoPlist.strings */,
 				76084FF219E0EBDA008BC78B /* main.m */,
@@ -197,9 +240,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = uvu;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "uVu Technologies";
 				TargetAttributes = {
+					76084FE219E0EBDA008BC78B = {
+						DevelopmentTeam = ZAFBMWB22R;
+					};
 					7608500319E0EBDA008BC78B = {
 						TestTargetID = 76084FE219E0EBDA008BC78B;
 					};
@@ -229,9 +275,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76084FFF19E0EBDA008BC78B /* Images.xcassets in Resources */,
+				766983C21A02AA07003A5112 /* gameOverSound.mp3 in Resources */,
+				76A2D26B1A114665009CE778 /* Chunkfive Ex.ttf in Resources */,
 				76084FF119E0EBDA008BC78B /* InfoPlist.strings in Resources */,
+				76C90C9D1A1D784600B52E10 /* pr_mapleleafrag.mp3 in Resources */,
+				76E78B7719EC69BF00FFB1FF /* Images.xcassets in Resources */,
 				76084FFA19E0EBDA008BC78B /* Main.storyboard in Resources */,
+				76F0D0F019F95B920046AEEC /* 00 Starmap Truetype.ttf in Resources */,
+				7674BD9E19E3C4DE009E953E /* uVuLoop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E3509919F6361F00A1925C /* scoresViewController.m in Sources */,
+				7674273819EF073900A1FA47 /* charactersViewController.m in Sources */,
+				7696FA3519EF270A0097A681 /* helpViewController.m in Sources */,
 				76084FF319E0EBDA008BC78B /* main.m in Sources */,
 				76084FFD19E0EBDA008BC78B /* uvuViewController.m in Sources */,
 				76084FF719E0EBDA008BC78B /* uvuAppDelegate.m in Sources */,
+				7696FA2B19EF1DB20097A681 /* backgroundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +361,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +399,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -379,10 +432,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
 				INFOPLIST_FILE = "Caffeine Run/Caffeine Run-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Caffeine Run/Caffeine Run-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +453,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Caffeine Run/Caffeine Run-Prefix.pch";
 				INFOPLIST_FILE = "Caffeine Run/Caffeine Run-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Caffeine Run/Caffeine Run-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +471,6 @@
 		7608501919E0EBDA008BC78B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caffeine Run.app/Caffeine Run";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +493,6 @@
 		7608501A19E0EBDA008BC78B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Caffeine Run.app/Caffeine Run";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +527,7 @@
 				7608501719E0EBDA008BC78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7608501819E0EBDA008BC78B /* Build configuration list for PBXNativeTarget "Caffeine RunTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +536,7 @@
 				7608501A19E0EBDA008BC78B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

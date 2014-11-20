@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
 @interface uvuViewController : UIViewController
-
+@property (strong, nonatomic) CMMotionManager *motionManager;
+@property(nonatomic) bool isMale;
+@property(nonatomic) int city;
 @end
